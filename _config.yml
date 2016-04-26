@@ -4,7 +4,7 @@ index_title: Ja.Herrera # same as title in index.html file, so that custom descr
 blog_title: My Territory
 header-img: img/home-bg.jpg
 # email: root@shikherverma.com
-copyright_name: JaHerrera
+copyright_name: Ja.Herrera
 description: "Online Territory of Ja.Herrera"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
 # url: shikherverma.com #only used in disque comments for now
