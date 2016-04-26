@@ -3,9 +3,9 @@ title: My Territory
 index_title: Shikher Verma # same as title in index.html file, so that custom description can be set in page.html layout.
 blog_title: My Territory
 header-img: img/home-bg.jpg
-email: root@shikherverma.com
-copyright_name: ShikherVerma
-description: "Online Territory of Shikher Verma"
+# email: root@shikherverma.com
+copyright_name: JaHerrera
+description: "Online Territory of Ja.Herrera"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
 url: shikherverma.com #only used in disque comments for now
 github_username:  shikherverma
