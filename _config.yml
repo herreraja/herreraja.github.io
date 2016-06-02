@@ -1,16 +1,17 @@
 # Site settings
-title: My Territory
+title: About me
 index_title: Ja.Herrera # same as title in index.html file, so that custom description can be set in page.html layout.
-blog_title: My Territory
+blog_title: Diary work
 header-img: img/home-bg.jpg
 # email: root@shikherverma.com
 copyright_name: Ja.Herrera
-description: "Online Territory of Ja.Herrera"
+description: "CV and blog of Ja.Herrera"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
 # url: shikherverma.com #only used in disque comments for now
 github_username:  josekron
 # facebook_username:  shikherverma1
-#email_username:  root@shikherverma.com
+twitter_username: joseantonio_hp
+email_username:  joseantonioherrerap@gmail.com
 # used to estimate reading time
 wpm: 180
 
