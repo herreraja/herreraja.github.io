@@ -1,7 +1,7 @@
 # Site settings
-title: About me
+title: Ja.Herrera
 index_title: Ja.Herrera # same as title in index.html file, so that custom description can be set in page.html layout.
-blog_title: Diary work
+blog_title: A bit of me
 header-img: img/home-bg.jpg
 # email: root@shikherverma.com
 copyright_name: Ja.Herrera
