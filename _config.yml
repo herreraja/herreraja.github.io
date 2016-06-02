@@ -1,5 +1,5 @@
 # Site settings
-title: Ja.Herrera
+title: About me
 index_title: Ja.Herrera # same as title in index.html file, so that custom description can be set in page.html layout.
 blog_title: A bit of me
 header-img: img/home-bg.jpg
