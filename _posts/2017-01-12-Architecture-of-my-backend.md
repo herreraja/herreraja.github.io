@@ -4,7 +4,7 @@ title:      "Architecture of my backend"
 subtitle:   "Explaining my architecture and the reasons of my design."
 date:       2017-01-12 23:27:00
 author:     "Ja.Herrera"
-header-img: "img/posts/chip-bg.jpg"
+header-img: "img/posts/post-12012017-backend-header.jpg"
 comments: true
 tags: [ Backend, pet-project ]
 ---
