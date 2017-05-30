@@ -9,7 +9,7 @@ comments: true
 tags: [ Frontend, angularjs, javascript ]
 ---
 
-Developers don't like to include data collection services because it's a boring work and also affect the performance of the application. So, when we have to add X service,in the best case we create a class *serviceX* to handle each call to this service and we fill all application code with calls to this new service. After we do the same with Y service.
+Developers don't like to include data collection services because it's a boring work and also affect the performance of the application. So, when we have to add X service, in the best case we create a class *serviceX* to handle each call to this service and we fill all application code with calls to this new service. After we do the same with Y service.
  
 A way to handle every service is using `Google Tag Manager` (GTM) which through "tags" you can send information (using datalayers) to other services (Google Analytics, Mixpanel, Flurry, etc) or embed javascript code in your application. I´m not going to explain how GTM works because there is a lot of information on Google even video tutorials, only I want to differentiate `pageViews` (each time we change the page) and `events` (for example when we click on a button).
  
