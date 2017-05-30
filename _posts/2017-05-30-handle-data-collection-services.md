@@ -75,7 +75,7 @@ When we have the response from server, we call to *callBackInventory* with the a
 
 ### Events
 
-Handle `events` is easier than pageViews, we only have to declare a couple of directives in *App.js* when we click on something or if something changes.
+Handle `events` is easier than pageViews, we only have to declare a couple of directives in `App.js` when we click on something or if something changes.
 
 ```
 .directive('ngClick', function($rootScope, serviceGTM) {
