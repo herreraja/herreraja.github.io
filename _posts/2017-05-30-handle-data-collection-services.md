@@ -4,7 +4,7 @@ title:      "One ring to rule all data collection services"
 subtitle:   "Handling data collection services in an elegant way for Angularjs"
 date:       2017-05-30 23:27:00
 author:     "Ja.Herrera"
-header-img: "img/posts/post-12012017-backend-header.png"
+header-img: "img/posts/post-30052017-datacollection-header.png"
 comments: true
 tags: [ Frontend, angularjs, javascript ]
 ---
