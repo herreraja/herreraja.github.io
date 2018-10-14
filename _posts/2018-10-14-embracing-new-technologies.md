@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "No country for old men"
-subtitle:   "Embracing new technologies."
+subtitle:   "Embracing new technologies"
 date:       2018-10-14 17:27:00
 author:     "Ja.Herrera"
 header-img: "img/posts/post-14102018-tools-header.jpg"
