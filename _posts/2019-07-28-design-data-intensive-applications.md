@@ -58,7 +58,7 @@ Finally, head outputs just the first five lines (-n 5) of input, and discards th
 2124 /2012/12/05/schema-evolution-in-avro-protocol[…]
 ```
 
-An extra advantage of processing logs is to find errors in the system like failed transactions and recover it. 
+An extra advantage of processing logs is to find errors in the system like failed transactions and recover them. 
 
 ![mapreduce](/img/posts/post-28072019-logs.png "MapReduce example")
 
