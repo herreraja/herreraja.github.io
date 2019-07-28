@@ -4,7 +4,7 @@ title:      "Design Data-Intensive Applications: Batch Processing"
 subtitle:   "Processing data through log files"
 date:       2019-07-28 12:00:00
 author:     "Ja.Herrera"
-header-img: "img/posts/post-30052017-data-collection-angular-header.png"
+header-img: "img/posts/post-28072019-design-intensive-applications-header.png"
 comments: true
 tags: [ Backend, unix, data ]
 ---
