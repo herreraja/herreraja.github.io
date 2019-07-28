@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Design Data-Intensive Applications: Batch Processing"
+title:      "Design Data-Intensive Applications: Batch Processing using logs"
 subtitle:   "Processing data using log files"
 date:       2019-07-28 12:00:00
 author:     "Ja.Herrera"
@@ -16,6 +16,8 @@ A big part of this book talks about managing distributed systems and their commo
  
 ## Batch Processing
 
+A batch processing job takes a large amount of data as input, process it and produces some output data. Depending on the amount of data, it can takes minutes, hours or even days to finish all the process.
+
 ### Using simple logs analysis
 
 What company doesn’t have a bunch of jobs doing different stuff like:
@@ -24,7 +26,7 @@ What company doesn’t have a bunch of jobs doing different stuff like:
 - Checking how many users have been registered in X period of time.
 - Querying specific data for sending events to users or another service for marketing purposes like Braze.
 
-It’s quite common to find all these jobs running on Jenkins in a big instance although some sophisticated companies run the jobs only on-demand using services like AWS Batch. This requires to dispose an instance and query the production database which can get overloaded by connections and queries.
+It’s quite common to find all these jobs running on Jenkins in a big instance although some sophisticated companies run the jobs only on-demand using services like AWS Batch. This requires to dispose of an instance and query the production database which can get overloaded by connections and queries.
 
 `We already have all this information in the logs`. Why don’t use it? Processing simple files barely require CPU (even we can use only unix tools) and we wouldn’t need to connect to the production database. We only need to be sure to `have proper logs`. Even exist services like AWS Datapipeline which automatize the log processing and do it on-demand.
 
