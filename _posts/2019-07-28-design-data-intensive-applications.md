@@ -22,7 +22,7 @@ What company doesn’t have a bunch of jobs doing different stuff like:
 
 - Querying the latest transactions to export them to another system.
 - Checking how many users have been registered in X period of time.
-- Querying specific data for sending events to users or another service with marketing purposes like Braze.
+- Querying specific data for sending events to users or another service for marketing purposes like Braze.
 
 It’s quite common to find all these jobs running on Jenkins in a big instance although some sophisticated companies run the jobs only on-demand using services like AWS Batch. This requires to dispose an instance and query the production database which can get overloaded by connections and queries.
 
