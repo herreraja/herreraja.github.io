@@ -9,7 +9,7 @@ comments: true
 tags: [ Backend, unix, data ]
 ---
 
-It took me a lot of time to read this [book](https://dataintensive.net/), not because it wasn’t good but I think it’s a reference book to consult from time to time rather than having it on the bedside table. In fact, this book is a must-have technical book for those who want to design and build systems which revolve around data.
+It took me a lot of time to read the book [Design Data-Intensive Applications](https://dataintensive.net/), not because it wasn’t good but I think it’s a reference book to consult from time to time rather than having it on the bedside table. In fact, this book is a must-have technical book for those who want to design and build systems which revolve around data.
 
 A big part of this book talks about managing distributed systems and their common issues: replication of the nodes, how to handle leaders nodes and followers nodes when a node is down, consistency between nodes and detect failures, etc. Although we can apply some of that advice, cloud computing vendors like AWS, Google Cloud or Microsoft Azure are offering services which take care of all these concerns for us so I will focus on one of the contents of the book which it is really interesting: the data processing or batch processing.
 
