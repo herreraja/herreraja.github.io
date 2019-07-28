@@ -64,4 +64,4 @@ An extra advantage of processing logs is to find errors in the system like faile
 
 During this process, we can make good use of MapReduce and Joins to obtain the desirable output.
 
-Examples and pictures has been taken from the same book [Design Data-Intensive Applications: Batch Processing] (https://dataintensive.net/) .
+Examples and pictures has been taken from the same book [Design Data-Intensive Applications](https://dataintensive.net/) .
