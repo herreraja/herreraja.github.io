@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Design Data-Intensive Applications: Batch Processing using logs"
+title:      "Design Data-Intensive Applications: Batch Processing"
 subtitle:   "Processing data using log files"
 date:       2019-07-28 12:00:00
 author:     "Ja.Herrera"
