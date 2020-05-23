@@ -9,7 +9,7 @@ comments: true
 tags: [ frontend, Backend, flutter, firebase, golang ]
 ---
 
-I recently released an app for improving English for Spanish speakers. The app is called `[MemGramm]`(https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards) and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
+I recently released an app for improving English for Spanish speakers. The app is called `[MemGramm](https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards)` and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
 
 A brief description, my app offers predefined flashcards divided into different categories and levels of difficulty and the user has to fill the blank space. Also, users can add their flashcards and search by words.
 
@@ -78,7 +78,7 @@ The content is managed on a Google Spreadsheet and when I am fine with the conte
 
 I wasn’t writing any documentation at all at the beginning because I thought it would delay me from developing the app. However, as I worked on it only in my free time or weekend, sometimes I needed to spend too much time catching up with my latest changes. 
 
-So I started using `[Basecamp]`(https://basecamp.com/) which is quite straightforward and easy to use. I used it to add my To-Dos, upload files and list of resources and manage some events in the calendar. Once the app was finished, I moved the files and list of resources to a repository on Github.
+So I started using `[Basecamp](https://basecamp.com/)` which is quite straightforward and easy to use. I used it to add my To-Dos, upload files and list of resources and manage some events in the calendar. Once the app was finished, I moved the files and list of resources to a repository on Github.
 
 ## Feedback
 
@@ -95,6 +95,12 @@ Feedback is quite important if we are aiming for a well-polished app. The `feedb
 
 In the short term, my idea is only to add new content (and fix bugs) but I have a list of To-Dos if the app gets successful with a decent amount of active users:
 
+### Improvements
+
+- Native ads integrated on the home screen and remove banners: Flutter doesn’t still have proper integration with Admob and also I wasn't able to add Native ads without compromise the release. 
+
+- Improve the internal tool for showing statistics for the plays: the app currently makes a call to Firebase to store the score, level and time after every play so it would be nice to have a visualization of this so it can help me to normalise the levels of each deck.
+
 ### Engineering 
 
 - Favourites sentences saved on the back-end: I decided not to save them on the back-end to avoid to reach the limit of the free plan of Firebase.
@@ -106,9 +112,3 @@ In the short term, my idea is only to add new content (and fix bugs) but I have 
 - Gamification: thinking in something easy to implement like for example a day streak to keep the user using the app every day.
 
 - Voice translator for every sentence: open Google Translator or Wordreference in an embedded browser, or I could go further and play with AWS Polly or the equivalent on Google Cloud.
-
-### Improvements
-
-- Native ads integrated on the home screen and remove banners: Flutter doesn’t still have proper integration with Admob and also I wasn't able to add Native ads without compromise the release. 
-
-- Improve the internal tool for showing statistics for the plays: the app currently makes a call to Firebase to store the score, level and time after every play so it would be nice to have a visualization of this so it can help me to normalise the levels of each deck.
