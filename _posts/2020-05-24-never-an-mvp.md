@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "It is never a MVP"
+title:      "It is never an MVP"
 subtitle:   "Thoughts after launching an app"
 date:       2020-05-24 12:00:00
 author:     "Ja.Herrera"
