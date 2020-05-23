@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "It is never a MVP"
-subtitle:   "Postmortem of launching an app"
+subtitle:   "Thoughts after launching an app"
 date:       2020-05-24 12:00:00
 author:     "Ja.Herrera"
 header-img: "img/posts/post-23052020-memgramm-header.png"
@@ -87,6 +87,7 @@ Feedback is quite important if we are aiming for a well-polished app. The feedba
 - UI and UX design: before feedback, my app looked like an Android app from 2012. Also, my app had a lot of redundant buttons which I removed so the experience is much better.
 
 ![feedback](/img/posts/post-23052020-compare.png "Design comparison")
+*(before and after)*
 
 - Content: my app is for Spanish speakers to improve their English however I received feedback about the content was too advanced and I needed to add content more focused on beginners.
 
