@@ -9,7 +9,7 @@ comments: true
 tags: [ frontend,Backend, flutter, firebase, golang ]
 ---
 
-I recently released an app for improving English for Spanish speakers. The app is called [MemGramm](https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards) and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
+I recently released an app for improving English for Spanish speakers. The app is called `[MemGramm]`(https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards) and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
 
 A brief description, my app offers predefined flashcards divided into different categories and levels of difficulty and the user has to fill the blank space. Also, users can add their flashcards and search by words.
 
@@ -33,13 +33,13 @@ Finally, I introduced `Golang` into my stack to build an internal tool for manag
 
 ## First version
 
-The first version consisted basically on call to Firebase Functions endpoints (HTTP requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from the local storage.
+The first version consisted basically on call to Firebase Functions endpoints (HTTPS requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from the local storage.
 
 As you can see, the first version wasn’t a big deal, however, an endless number of improvements came out and with that, a lot of learning as well.
 
 ### Improving time response
 
-The first version worked fine, however, the more content I added, the API calls took longer. To improve this, I added the last date call as a parameter in the endpoint so the client sends the last date and will receive only the updated data.
+The first version worked fine, however, the more content I added, the API calls took longer. To improve this, I added the last date call as a parameter in the endpoint so the client sends the last date and `will receive only the updated data`.
 
 ```
 {
@@ -58,7 +58,7 @@ Finally, if the user swipes to refresh, the client will request the backend for 
 
 As a backend engineer, I wanted to customize the client directly from the backend, so the backend was proving the size of each deck (Card widget in Flutter) and even the backgrounds images for them. 
 
-I was very proud of this, however, there was a bit delay in displaying the images the first time they were updated. Despite my efforts for delivering the customization, the user experience wasn’t great at all, so finally I opted for the simplest solution: have a list of background images in the app so backend only needs to provide the name of the image. 
+I was very proud of this, however, there was a bit delay in displaying the images the first time they were updated. Despite my efforts for delivering the customization, the user experience wasn’t great at all, so finally I opted for the `simplest solution`: have a list of background images in the app so backend only needs to provide the name of the image. 
 
 Now, the app works smoothly but I would need to publish an update if I wanted to add more background images. However, in that case, the app won’t break because it will display a background image by default.
 
@@ -78,11 +78,11 @@ The content is managed on a Google Spreadsheet and when I am fine with the conte
 
 I wasn’t writing any documentation at all at the beginning because I thought it would delay me from developing the app. However, as I worked on it only in my free time or weekend, sometimes I needed to spend too much time catching up with my latest changes. 
 
-So I started using [Basecamp](https://basecamp.com/) which is quite straightforward and easy to use. I used it to add my To-Dos, upload files and list of resources and manage some events in the calendar. Once the app was finished, I moved the files and list of resources to a repository on Github.
+So I started using `[Basecamp]`(https://basecamp.com/) which is quite straightforward and easy to use. I used it to add my To-Dos, upload files and list of resources and manage some events in the calendar. Once the app was finished, I moved the files and list of resources to a repository on Github.
 
 ## Feedback
 
-Feedback is quite important if we are aiming for a well-polished app. The feedback helped a lot but if I had to highlight:
+`Feedback is quite important` if we are aiming for a well-polished app. The feedback helped a lot but if I had to highlight:
 
 - UI and UX design: before feedback, my app looked like an Android app from 2012. Also, my app had a lot of redundant buttons which I removed so the experience is much better.
 
