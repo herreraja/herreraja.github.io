@@ -86,7 +86,7 @@ Feedback is quite important if we are aiming for a well-polished app. The `feedb
 
 - UI and UX design: before feedback, my app looked like an Android app from 2012. Also, my app had a lot of redundant buttons which I removed so the experience is much better.
 
-![feedback](/img/posts/post-23052020-compare.png?style=centerme "Design comparison")
+<img style="float: center;" src="/img/posts/post-23052020-compare.png">
 *(before and after)*
 
 - Content: my app is for Spanish speakers who want to improve their English however I received feedback about the content was too advanced and I needed to add content more focused on beginners.
