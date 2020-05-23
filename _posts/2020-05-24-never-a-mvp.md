@@ -48,7 +48,7 @@ The first version worked fine, however, the more content I added, the API calls 
 }
 ```
 
-The client updates only the decks included in decks_updated and deletes any decks in local storage which are not in decks_id_available so we can also enable or disable decks from the backend. 
+The client updates only the decks included in *decks_updated* and deletes any decks in local storage which are not in *decks_id_available* so we can also enable or disable decks from the backend. 
 
 Finally, if the user swipes to refresh, the client will request the backend for the full content, deletes all the decks from local storage and store the new decks.
 
@@ -86,7 +86,7 @@ Feedback is quite important if we are aiming for a well-polished app. The `feedb
 
 - UI and UX design: before feedback, my app looked like an Android app from 2012. Also, my app had a lot of redundant buttons which I removed so the experience is much better.
 
-![feedback](/img/posts/post-23052020-compare.png "Design comparison")
+![feedback](/img/posts/post-23052020-compare.png?style=centerme "Design comparison")
 *(before and after)*
 
 - Content: my app is for Spanish speakers who want to improve their English however I received feedback about the content was too advanced and I needed to add content more focused on beginners.
