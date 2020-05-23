@@ -9,7 +9,7 @@ comments: true
 tags: [ frontend, Backend, flutter, firebase, golang ]
 ---
 
-I recently released an app for Spanish speakers who want to improve their English. The app is called **[MemGramm](https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards)** and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
+I recently launched an app for Spanish speakers who want to improve their English. The app is called **[MemGramm](https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards)** and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
 
 A brief description, my app offers predefined flashcards divided into different categories and levels of difficulty and the user has to fill the blank space. Also, users can add their flashcards and search by words.
 
