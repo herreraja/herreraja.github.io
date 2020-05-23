@@ -25,15 +25,15 @@ And finally, have something to show and how to manage a considerable amount of d
 
 ## Technologies
 
-The back-end is built with Firebase Cloud Functions because it was the faster way for building a back-end and also the cheapest option (basically free). I considered Amazon Lightsail which has a fixed price but free is free. Also, I rely on Firebase to authenticate users.
+The back-end is built with `Firebase Cloud Functions` because it was the faster way for building a back-end and also the cheapest option (basically free). I considered Amazon Lightsail which has a fixed price but ~~[free is free](https://www.reddit.com/r/Firebase/comments/go65xj/is_firebase_cloud_functions_not_going_to_be_free/)~~ . Also, I rely on Firebase to authenticate users.
 
-About the front-end, I picked up Flutter because I wanted to build one and publish for Android and IOS and Flutter looked (and still looks) promising. I could choose React Native but Flutter got my attention.
+About the front-end, I picked up `Flutter` because I wanted to build one and publish for Android and IOS and Flutter looked (and still looks) promising. I could choose React Native but Flutter got my attention.
 
-Finally, I introduced Golang into my stack to build an internal tool for managing the content.
+Finally, I introduced `Golang` into my stack to build an internal tool for managing the content.
 
 ## First version
 
-The first version consisted basically on call to Firebase Functions endpoints (HTTP requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from local storage.
+The first version consisted basically on call to Firebase Functions endpoints (HTTP requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from the local storage.
 
 As you can see, the first version wasn’t a big deal, however, an endless number of improvements came out and with that, a lot of learning as well.
 
