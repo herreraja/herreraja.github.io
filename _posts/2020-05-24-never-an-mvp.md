@@ -13,7 +13,8 @@ I recently launched an app for Spanish speakers who want to improve their Englis
 
 A brief description, my app offers predefined flashcards divided into different categories and levels of difficulty and the user has to fill the blank space. Also, users can add their flashcards and search by words.
 
-![banner](/img/posts/post-23052020-banner.png "Banner MemGramm")
+<img style="display: block;max-width: 100%;height: auto;margin: auto;float: none!important;" src="/img/posts/post-23052020-banner.png">
+*<center>Banner graphics designed by pikisuperstar / Freepik</center>*
  
 ## Motivations
 
