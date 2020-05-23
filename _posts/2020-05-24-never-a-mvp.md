@@ -6,7 +6,7 @@ date:       2020-05-24 12:00:00
 author:     "Ja.Herrera"
 header-img: "img/posts/post-23052020-memgramm-header.png"
 comments: true
-tags: [ frontend,Backend, flutter, firebase, golang ]
+tags: [ frontend, Backend, flutter, firebase, golang ]
 ---
 
 I recently released an app for improving English for Spanish speakers. The app is called `[MemGramm]`(https://play.google.com/store/apps/details?id=com.zancocho.spanglishcards) and it is currently available on Android. It took me a couple of weekends to build the app but a year to finish it. I built it for me and the idea is quite simple and not imaginative at all: English flashcards. However, it has a bit of engineering under the facade.
@@ -64,7 +64,7 @@ Now, the app works smoothly but I would need to publish an update if I wanted to
 
 ## Content management
 
-Adding decks and sentences one by one into Firebase database was an awful task and also, the client could make a call just when I was updating the content so the content wouldn’t be consistent. For that reason, I needed to develop a tool to help me manage the content.
+Adding decks and sentences one by one into Firebase database was an awful task and also, the client could make a call just when I was updating the content so `the content wouldn’t be consistent`. For that reason, I needed to develop a tool to help me manage the content.
 
 The content is managed on a Google Spreadsheet and when I am fine with the content, I only need to run the tool which will update my Firebase Database. Although the tool is quite basic, it allows me:
 
@@ -82,14 +82,14 @@ So I started using `[Basecamp]`(https://basecamp.com/) which is quite straightfo
 
 ## Feedback
 
-`Feedback is quite important` if we are aiming for a well-polished app. The feedback helped a lot but if I had to highlight:
+Feedback is quite important if we are aiming for a well-polished app. The `feedback helped a lot` but if I had to highlight:
 
 - UI and UX design: before feedback, my app looked like an Android app from 2012. Also, my app had a lot of redundant buttons which I removed so the experience is much better.
 
 ![feedback](/img/posts/post-23052020-compare.png "Design comparison")
 *(before and after)*
 
-- Content: my app is for Spanish speakers to improve their English however I received feedback about the content was too advanced and I needed to add content more focused on beginners.
+- Content: my app is for Spanish speakers who want to improve their English however I received feedback about the content was too advanced and I needed to add content more focused on beginners.
 
 ## Future improvements
 
