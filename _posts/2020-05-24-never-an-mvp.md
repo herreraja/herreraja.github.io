@@ -34,7 +34,7 @@ Finally, I introduced `Golang` into my stack to build an internal tool for manag
 
 ## First version
 
-The first version consisted basically on call to Firebase Functions endpoints (HTTPS requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from the local storage.
+The first version consisted basically calls to Firebase Functions endpoints (HTTPS requests) to retrieve the data and store the data on local storage (SQLite). If the phone didn’t have access to the Internet, the phone would display the data from the local storage.
 
 As you can see, the first version wasn’t a big deal, however, an endless number of improvements came out and with that, a lot of learning as well.
 
@@ -57,7 +57,7 @@ Finally, if the user swipes to refresh, the client will request the backend for 
 
 ## UX vs over-engineering
 
-As a backend engineer, I wanted to customize the client directly from the backend, so the backend was proving the size of each deck (Card widget in Flutter) and even the backgrounds images for them. 
+As a backend engineer, I wanted to customize the client directly from the backend, so the backend was providing the size of each deck (Card widget in Flutter) and even the background images for them. 
 
 I was very proud of this, however, there was a bit delay in displaying the images the first time they were updated. Despite my efforts for delivering the customization, the user experience wasn’t great at all, so finally I opted for the `simplest solution`: have a list of background images in the app so backend only needs to provide the name of the image. 
 
@@ -98,13 +98,13 @@ In the short term, my idea is only to add new content (and fix bugs) but I have 
 
 ### Improvements
 
-- Native ads integrated on the home screen and remove banners: Flutter doesn’t still have proper integration with Admob and also I wasn't able to add Native ads without compromise the release. 
+- Native ads integrated on the home screen and remove banners: Flutter doesn’t still have proper integration with Admob and I wasn't able to add Native ads without compromise the release. 
 
 - Improve the internal tool for showing statistics for the plays: the app currently makes a call to Firebase to store the score, level and time after every play so it would be nice to have a visualization of this so it can help me to normalise the levels of each deck.
 
 ### Engineering 
 
-- Favourites sentences saved on the back-end: I decided not to save them on the back-end to avoid to reach the limit of the free plan of Firebase.
+- Favourite sentences are saved on the back-end: I decided not to save them on the back-end to avoid to reach the limit of the free plan of Firebase.
 
 - Pagination in Search tab: the full list of sentences is currently shown on the page. Now it is not a problem but it might be if I continue adding content. 
 
